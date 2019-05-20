@@ -1,2 +1,2 @@
 language: csharp
-solution: WARD-Interface-Control\WARD-Interface-Control.sln
+solution: "./WARD-Interface-Control/WARD-Interface-Control.sln"

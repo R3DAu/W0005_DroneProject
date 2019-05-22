@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ATeam_DroneController;
+// using ConsoleController;
+using System;
 using System.Windows.Forms;
 
 namespace ARDrone2_Controller
@@ -13,7 +15,7 @@ namespace ARDrone2_Controller
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DroneForm());
+            Application.Run(new Form1());
         }
     }
 }

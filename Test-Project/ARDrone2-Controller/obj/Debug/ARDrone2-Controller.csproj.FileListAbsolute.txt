@@ -16,3 +16,15 @@ C:\Users\reyno\OneDrive - Swinburne University\2019\DP1\Week Tasks\HD Task\OurDr
 C:\Users\reyno\OneDrive - Swinburne University\2019\DP1\Week Tasks\HD Task\OurDroneProject\ARDrone2-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.csproj.CopyComplete
 C:\Users\reyno\OneDrive - Swinburne University\2019\DP1\Week Tasks\HD Task\OurDroneProject\ARDrone2-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.exe
 C:\Users\reyno\OneDrive - Swinburne University\2019\DP1\Week Tasks\HD Task\OurDroneProject\ARDrone2-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.pdb
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\bin\Debug\ARDrone2-Controller.exe.config
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\bin\Debug\ARDrone2-Controller.exe
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\bin\Debug\ARDrone2-Controller.pdb
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\bin\Debug\FFmpeg.AutoGen.dll.config
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.csprojAssemblyReference.cache
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\obj\Debug\ATeam_DroneController.Properties.Resources.resources
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.csproj.GenerateResource.cache
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.csproj.CoreCompileInputs.cache
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.csproj.CopyComplete
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.exe
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\obj\Debug\ARDrone2-Controller.pdb
+C:\Users\Jake\Documents\Uni Docs\GitHub\Drone Project\W0005_DroneProject\Test-Project\ARDrone2-Controller\obj\Debug\ARDrone2_Controller.DroneForm.resources

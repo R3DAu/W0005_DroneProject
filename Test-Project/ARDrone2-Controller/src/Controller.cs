@@ -2,10 +2,16 @@
 
 namespace ATeam_DroneController.src
 {
-    class Controller
+    public class Controller
     {
         private string _hostname = "192.168.1.1";
         private DroneClient _client;
+
+        //Flight float adjustment constants.
+        const float YAWVAL = 0.25f;
+        const float GAZVAL = 0.25f;
+        const float ROLLVAL = 0.05f;
+        const float PITCHVAL = 0.05f;
 
         /// <summary>
         /// Constructor Class

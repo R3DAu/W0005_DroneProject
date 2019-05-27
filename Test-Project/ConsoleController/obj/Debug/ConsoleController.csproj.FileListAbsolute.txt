@@ -30,3 +30,19 @@ C:\Users\R3D\OneDrive - Swinburne University\2019\DP1\Week Tasks\HD Task\OurDron
 C:\Users\R3D\OneDrive - Swinburne University\2019\DP1\Week Tasks\HD Task\OurDroneProject\ARDrone2-Project\ConsoleController\obj\Debug\ConsoleController.csproj.CopyComplete
 C:\Users\R3D\OneDrive - Swinburne University\2019\DP1\Week Tasks\HD Task\OurDroneProject\ARDrone2-Project\ConsoleController\obj\Debug\ConsoleController.exe
 C:\Users\R3D\OneDrive - Swinburne University\2019\DP1\Week Tasks\HD Task\OurDroneProject\ARDrone2-Project\ConsoleController\obj\Debug\ConsoleController.pdb
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\bin\Debug\ConsoleController.exe.config
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\bin\Debug\ConsoleController.exe
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\bin\Debug\ConsoleController.pdb
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\bin\Debug\Interop.MSVidCtlLib.dll
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\bin\Debug\AxInterop.MSVidCtlLib.dll
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.csprojAssemblyReference.cache
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\Interop.MSVidCtlLib.dll
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\AxInterop.MSVidCtlLib.dll
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.csproj.ResolveComReference.cache
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.src.Form1.resources
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.Properties.Resources.resources
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.csproj.GenerateResource.cache
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.csproj.CoreCompileInputs.cache
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.csproj.CopyComplete
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.exe
+C:\Users\Jake\Documents\Uni Docs\GitHub\DroneProject\Test-Project\ConsoleController\obj\Debug\ConsoleController.pdb

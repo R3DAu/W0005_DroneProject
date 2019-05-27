@@ -31,28 +31,29 @@ namespace ARDrone2_Controller
 
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
+
+        private string Start(object sender, EventArgs e)
         {
-            _droneClient.Start();
+            return execute("Start");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void TakeOff(object sender, EventArgs e)
         {
             _droneClient.Takeoff();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Land(object sender, EventArgs e)
         {
             _droneClient.Land();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Hover(object sender, EventArgs e)
         {
             _droneClient.Hover();
         }
 
         // pitch ++
-        private void button5_Click(object sender, EventArgs e)
+        private void PitchUp(object sender, EventArgs e)
         {
             // const float PITCHVAL = 0.05f;
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, pitch: PITCHVAL);
@@ -60,62 +61,62 @@ namespace ARDrone2_Controller
 
 
         // pitch --
-        private void button6_Click(object sender, EventArgs e)
+        private void PitchDown(object sender, EventArgs e)
         {
             // const float PITCHVAL = 0.05f;
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, pitch: -PITCHVAL);
         }
 
         // yaw ++
-        private void button7_Click(object sender, EventArgs e)
+        private void YawUp(object sender, EventArgs e)
         {
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, gaz: GAZVAL);
         }
 
         // yaw --
-        private void button8_Click(object sender, EventArgs e)
+        private void YawDown(object sender, EventArgs e)
         {
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, gaz: -GAZVAL);
         }
 
         // roll left
-        private void button9_Click(object sender, EventArgs e)
+        private void RollLeft(object sender, EventArgs e)
         {
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, roll: -ROLLVAL);
         }
 
         // roll right
-        private void button10_Click(object sender, EventArgs e)
+        private void RollRight(object sender, EventArgs e)
         {
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, roll: ROLLVAL);
         }
 
         // pitch left
-        private void button11_Click(object sender, EventArgs e)
+        private void PitchLeft(object sender, EventArgs e)
         {
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, yaw: -YAWVAL);
         }
 
         // pitch right
-        private void button12_Click(object sender, EventArgs e)
+        private void PitchRight(object sender, EventArgs e)
         {
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, yaw: YAWVAL);
         }
 
         // emergency
-        private void button13_Click(object sender, EventArgs e)
+        private void Emergency(object sender, EventArgs e)
         {
             _droneClient.Emergency();
         }
 
         // stop
-        private void button14_Click(object sender, EventArgs e)
+        private void Stop(object sender, EventArgs e)
         {
 
         }
 
         // jump
-        private void button15_Click(object sender, EventArgs e)
+        private void Jump(object sender, EventArgs e)
         {
             _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, gaz: GAZVAL);
             Thread.Sleep(4000);
@@ -125,31 +126,31 @@ namespace ARDrone2_Controller
         }
 
         // Height ++
-        private void button16_Click(object sender, EventArgs e)
+        private void HeightUp(object sender, EventArgs e)
         {
 
         }
 
         // height --
-        private void button17_Click(object sender, EventArgs e)
+        private void HeightDown(object sender, EventArgs e)
         {
 
         }
 
         // fly a circle 
-        private void button18_Click(object sender, EventArgs e)
+        private void Circle(object sender, EventArgs e)
         {
 
         }
 
         // Figure-8
-        private void button20_Click(object sender, EventArgs e)
+        private void Figure8(object sender, EventArgs e)
         {
 
         }
 
-        // Felix
-        private void button19_Click(object sender, EventArgs e)
+        // Helix
+        private void Helix(object sender, EventArgs e)
         {
 
         }
@@ -179,5 +180,20 @@ namespace ARDrone2_Controller
         {
 
         }
+
+        private string execute(string command)
+        {
+            string actions = "";
+
+            switch (command)
+            {
+                case "Start":
+                    _droneClient.Start();
+                    actions += command + " ";
+                    break;
+            }
+
+            return "Failed";
+        }
     }
-   }
+}

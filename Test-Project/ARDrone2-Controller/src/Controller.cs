@@ -7,6 +7,9 @@ namespace ATeam_DroneController.src
         private string _hostname = "192.168.1.1";
         private DroneClient _client;
 
+        //Flightmode Variable.
+        private readonly AR.Drone.Client.Command.FlightMode flightMode = AR.Drone.Client.Command.FlightMode.Progressive;
+
         //Flight float adjustment constants.
         const float YAWVAL = 0.25f;
         const float GAZVAL = 0.25f;
@@ -41,6 +44,21 @@ namespace ATeam_DroneController.src
         {
             _client = new DroneClient(_hostname);
         }
+
+        /// <summary>
+        /// Checks to see if the drone is connected to the computer
+        /// </summary>
+        public bool IsDroneConnected => _client.IsConnected;
+
+        /// <summary>
+        /// Returns battery usage information of the drone
+        /// </summary>
+        public float DroneBatteryPercentage => _client.NavigationData.Battery.Percentage;
+
+        /// <summary>
+        /// Returns whether the battery is low.
+        /// </summary>
+        public bool DroneBatteryLow => _client.NavigationData.Battery.Low;
 
         public void Land()
         {

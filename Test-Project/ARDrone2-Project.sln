@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDrone2-Controller", "ARDrone2-Controller\ARDrone2-Controller.csproj", "{B250828B-C95F-418B-B5EC-365627BCCBB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleController", "ConsoleController\ConsoleController.csproj", "{B8C50D07-DFFA-42D2-A8AE-8D0D54069C7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WARD-UnitTesting", "WARD-UnitTesting\WARD-UnitTesting.csproj", "{C2017C0F-BCC0-49DE-B4D8-FFCD2E54D760}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{B250828B-C95F-418B-B5EC-365627BCCBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B250828B-C95F-418B-B5EC-365627BCCBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B250828B-C95F-418B-B5EC-365627BCCBB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8C50D07-DFFA-42D2-A8AE-8D0D54069C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8C50D07-DFFA-42D2-A8AE-8D0D54069C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8C50D07-DFFA-42D2-A8AE-8D0D54069C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8C50D07-DFFA-42D2-A8AE-8D0D54069C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2017C0F-BCC0-49DE-B4D8-FFCD2E54D760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2017C0F-BCC0-49DE-B4D8-FFCD2E54D760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2017C0F-BCC0-49DE-B4D8-FFCD2E54D760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2017C0F-BCC0-49DE-B4D8-FFCD2E54D760}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

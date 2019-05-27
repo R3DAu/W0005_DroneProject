@@ -81,6 +81,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\api.cs" />
     <Compile Include="src\Controller.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="src\TestDrivenDev.cs" />

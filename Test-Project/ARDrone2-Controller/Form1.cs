@@ -1,15 +1,7 @@
 ﻿using AR.Drone.Client;
-using AR.Drone.Client.Command;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading; //  Cancellation Token
+using System.Threading; 
 
 namespace ARDrone2_Controller
 {
@@ -17,12 +9,6 @@ namespace ARDrone2_Controller
     {
 
         DroneClient _droneClient = null;
-
-        // value
-        const float YAWVAL = 0.25f;
-        const float GAZVAL = 0.25f;
-        const float ROLLVAL = 0.05f;
-        const float PITCHVAL = 0.05f;
 
         // public Controller
         public Form1()
@@ -32,81 +18,78 @@ namespace ARDrone2_Controller
             InitializeComponent();
         }
 
-        private string Start(object sender, EventArgs e)
+        private void Start(object sender, EventArgs e)
         {
-            return execute("Start");
+            
         }
 
         private void TakeOff(object sender, EventArgs e)
         {
-            _droneClient.Takeoff();
+            
         }
 
         private void Land(object sender, EventArgs e)
         {
-            _droneClient.Land();
+            
         }
 
         private void Hover(object sender, EventArgs e)
         {
-            _droneClient.Hover();
         }
 
         // pitch ++
         private void PitchUp(object sender, EventArgs e)
         {
-            // const float PITCHVAL = 0.05f;
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, pitch: PITCHVAL);
+            
         }
 
 
         // pitch --
         private void PitchDown(object sender, EventArgs e)
         {
-            // const float PITCHVAL = 0.05f;
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, pitch: -PITCHVAL);
+           
         }
 
         // yaw ++
         private void YawUp(object sender, EventArgs e)
         {
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, gaz: GAZVAL);
+          
         }
 
         // yaw --
         private void YawDown(object sender, EventArgs e)
         {
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, gaz: -GAZVAL);
+           
         }
 
         // roll left
         private void RollLeft(object sender, EventArgs e)
         {
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, roll: -ROLLVAL);
+            
         }
 
         // roll right
         private void RollRight(object sender, EventArgs e)
         {
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, roll: ROLLVAL);
+            
         }
 
         // pitch left
         private void PitchLeft(object sender, EventArgs e)
         {
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, yaw: -YAWVAL);
+            
         }
 
         // pitch right
         private void PitchRight(object sender, EventArgs e)
         {
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, yaw: YAWVAL);
+            
         }
 
         // emergency
         private void Emergency(object sender, EventArgs e)
         {
-            _droneClient.Emergency();
+            
         }
 
         // stop
@@ -118,11 +101,7 @@ namespace ARDrone2_Controller
         // jump
         private void Jump(object sender, EventArgs e)
         {
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, gaz: GAZVAL);
-            Thread.Sleep(4000);
-            _droneClient.Progress(AR.Drone.Client.Command.FlightMode.Progressive, gaz: -GAZVAL);
-            Thread.Sleep(4000);
-            _droneClient.Hover();
+            
         }
 
         // Height ++
